@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* HEADER */
+.navbar-dark .navbar-nav .nav-link.colorVerde{
+    color: #27A843;;
+}
+.navbar-nav{
+    align-items: center;
+}
+.fondoNav{
+    background-color: #353A40;
+}
+.img-header{
+    height: 700px;
+    background-image: linear-gradient(to right, #00000097,#00000097), url("../assets/img/ba1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 180px;
+    color: white;        
+}
+/* TITULOS */
+.tituloTkts h2 span{
+    display: block;
+    font-size: 2.0rem;
+}
+#oradores h2 span{
+    display: block;
+    font-size: 2.0rem;
+}
+#formularioOrador h2 span{
+    display: block;
+    font-size: 2.0rem;
+}
+/*LF*/
+#lugarFecha{
+    background-color: #333A40;
+}
+/* FORMULARIOS*/
+.mostrarError{
+    display: block;
+}
+.botonFormulario{
+    color: #fff;
+    background-color: #97C93E;
+    border-color: #97C93E;
+}
+.botonFormulario:hover {
+    color: #fff;
+    background-color: #7aa332;
+    border-color: #7aa332;
+  }
+.precio{
+    background-color:#CCE5FF;
+}
+/* FOOTER */
+.footer{
+    background-image: linear-gradient(to right, #1c3643, #1c3d4e, #1d445a, #1d4c66, #1e5372);
+    padding: 1.5rem;
+}
+.footer .nav-link{
+    color: #FFFFF3;
+}
+@media (max-width: 1910px) {
+    .fixed-bottom {
+      position: static !important;
+    }
+}
+
